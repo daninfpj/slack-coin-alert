@@ -24,7 +24,7 @@ export SLACK_COIN_URL='https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/xxxx
 #!/usr/bin/env bash
 
 # load rvm ruby
-source /home/user/.rvm/environments/ruby-2.4.1
+source /home/user/.rvm/environments/ruby-2.4.1 # if using RVM
 export SLACK_COIN_URL='https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/xxxxxxxxxxxxxxxxxxxxxxxx'
 
 cd /home/user/slack-coin-alert
